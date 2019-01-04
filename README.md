@@ -1,3 +1,6 @@
+<div align="center">
+	<img src="assets/item.gif" alt="Item" height="450px">
+</div>
 
 # react-native-animated-item
 
