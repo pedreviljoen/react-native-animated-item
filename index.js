@@ -2,7 +2,7 @@ import React from 'react'
 import { Animated, TouchableOpacity, StyleSheet, Dimensions, Text } from 'react-native'
 import PropTypes from 'prop-types'
 
-const { width }     = Dimensions.get('window')
+const SCREEN_WIDTH    = Dimensions.get('window').width
 const ACTIONS_WIDTH = 150
 const ACTIONS_TIME  = 200
 class AnimatedItem extends React.Component {
@@ -65,7 +65,7 @@ class AnimatedItem extends React.Component {
                 </TouchableOpacity>
                 <TouchableOpacity 
                     style={[styles.actionsContainer, actionStyle]}
-                    onPress={actionPress}
+                    onPress={actionPress && this.collapse}
                     activeOpacity={0.5}
                 >
                     {actionItem}
@@ -102,24 +102,34 @@ const styles = StyleSheet.create({
     main: {
         flex: 1,
         flexDirection: 'row',
-        width: width + ACTIONS_WIDTH,
-        backgroundColor: '##FFFFFF'
+        margin: 10,
+        height: 50,
+        width: SCREEN_WIDTH,
+        backgroundColor: '#FFFFFF',
+        alignItems: 'center'
     },
     container: {
-        width: width,
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'center'
+        width: SCREEN_WIDTH,
+        position: 'absolute',
+        left: 0,
+        width: SCREEN_WIDTH,
+        height: 100,
+        padding: 10
     },
     actionsContainer: {
         width: ACTIONS_WIDTH,
         height: '100%',
+        left: SCREEN_WIDTH,
         backgroundColor: '#EDF4FF',
         padding: 20,
         borderLeftColor: '#AFAFAF',
         borderLeftWidth: 1.5,
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        height: 100,
+        position: 'absolute'
     }
 })
 
