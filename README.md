@@ -13,8 +13,6 @@
 
 ## Contents
 
-- [react-native-animated-item](#react-native-animated-item)
-  - [Contents](#contents)
   - [Install](#install)
   - [Usage](#usage)
   - [Props](#props)
