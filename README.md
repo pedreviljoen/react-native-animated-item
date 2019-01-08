@@ -7,12 +7,13 @@
 [![Package version](https://img.shields.io/npm/v/react-native-animated-item.svg?style=flat-square)](https://npmjs.org/package/react-native-animated-item)
 [![Make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![License](https://img.shields.io/npm/l/react-native-animated-item.svg?style=flat-square)](https://github.com/pedreviljoen/react-native-animated-item/blob/master/LICENSE)
-[![npm downloads](https://img.shields.io/npm/dm/react-native-animated-item.svg?style=flat-square)](https://npmjs.org/package/react-native-animated-item) [![Greenkeeper badge](https://badges.greenkeeper.io/pedreviljoen/react-native-animated-item.svg)](https://greenkeeper.io/)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-animated-item.svg?style=flat-square)](https://npmjs.org/package/react-native-animated-item)
 
 > An animated item that slides open with some options. Useful in actionable lists.
 
 ## Contents
 
+  - [Install](#install)
   - [Usage](#usage)
   - [Props](#props)
   - [Contribute](#contribute)
