@@ -26,6 +26,9 @@
     "url": "https://github.com/pedreviljoen/react-native-animated-item/issues"
   },
   "homepage": "https://github.com/pedreviljoen/react-native-animated-item#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "react": "*",
     "react-native": "*"

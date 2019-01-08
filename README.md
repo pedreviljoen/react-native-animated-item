@@ -13,7 +13,6 @@
 
 ## Contents
 
-  - [Install](#install)
   - [Usage](#usage)
   - [Props](#props)
   - [Contribute](#contribute)
