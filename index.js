@@ -65,7 +65,7 @@ class AnimatedItem extends React.Component {
                 </TouchableOpacity>
                 <TouchableOpacity 
                     style={[styles.actionsContainer, actionStyle]}
-                    onPress={actionPress && this.collapse}
+                    onPress={actionPress ? actionPress : this.collapse}
                     activeOpacity={0.5}
                 >
                     {actionItem}
