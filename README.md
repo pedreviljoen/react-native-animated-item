@@ -7,7 +7,10 @@
 [![Package version](https://img.shields.io/npm/v/react-native-animated-item.svg?style=flat-square)](https://npmjs.org/package/react-native-animated-item)
 [![Make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![License](https://img.shields.io/npm/l/react-native-animated-item.svg?style=flat-square)](https://github.com/pedreviljoen/react-native-animated-item/blob/master/LICENSE)
-[![npm downloads](https://img.shields.io/npm/dm/react-native-animated-item.svg?style=flat-square)](https://npmjs.org/package/react-native-animated-item) [![Greenkeeper badge](https://badges.greenkeeper.io/pedreviljoen/react-native-animated-item.svg)](https://greenkeeper.io/)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-animated-item.svg?style=flat-square)](https://npmjs.org/package/react-native-animated-item) 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pedreviljoen/react-native-animated-item.svg)](https://greenkeeper.io/)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 
 > An animated item that slides open with some options. Useful in actionable lists.
 
@@ -22,7 +25,7 @@
 ## Install
 
 ```sh
-yarn install react-native-animated-item
+yarn add react-native-animated-item
 ```
 
 OR
@@ -87,27 +90,32 @@ const styles = StyleSheet.create({
 <table width="80%">
     <tr>
         <th>Property</th>
-        <th>Description</th> 
+        <th>Description</th>
+        <th>Type</th> 
         <th>Default Value</th>
     </tr>
     <tr>
         <td><code>containerStyle</code></td>
         <td>Styles of item container</td> 
+        <td><code>Object</code></td>
         <td><code>{}</code></td>
     </tr>
     <tr>
         <td><code>actionStyle</code></td>
         <td>Styles of actionItem</td> 
+        <td><code>Object</code></td>
         <td><code>{}</code></td>
     </tr>
     <tr>
         <td><code>actionPress</code></td>
         <td>Function to execute on click of actionItem</td> 
+        <td><code>Function</code></td>
         <td><code>() => {}</code></td>
     </tr>
     <tr>
         <td><code>actionItem</code></td>
-        <td>JSX component to display when slid open</td> 
+        <td>Component to display when slid open</td> 
+        <td><code>React.Component</code></td>
         <td>Fallback component with text</td>
     </tr>
 </table>
