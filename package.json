@@ -1,11 +1,11 @@
 {
   "name": "react-native-animated-item",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple animated slide component",
   "main": "index.js",
   "scripts": {
     "test": "echo 'no tests'",
-    "format": "prettier-standard index.js",
+    "format": "prettier --print-width 100 --no-semi --tab-width 2 --write index.js",
     "precommit": "npm run format"
   },
   "repository": {
@@ -34,6 +34,7 @@
     "react-native": "*"
   },
   "devDependencies": {
+    "prettier": "1.15.3",
     "prettier-standard": "^8.0.1"
   },
   "dependencies": {
