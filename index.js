@@ -16,14 +16,12 @@ class AnimatedItem extends React.Component {
 
   onPress = () => {
     const { expanded } = this.state
-    const { onItemSelected } = this.props
 
     if (expanded) {
       this.collapse()
     } else {
       this.expand()
     }
-    onItemSelected()
   }
 
   expand = () => {
