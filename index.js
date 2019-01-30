@@ -94,34 +94,31 @@ const styles = StyleSheet.create({
   main: {
     flex: 1,
     flexDirection: "row",
-    margin: 10,
-    height: 50,
     width: SCREEN_WIDTH,
     backgroundColor: "#FFFFFF",
-    alignItems: "center"
+    alignItems: "center",
+    height: 50,
+    margin: 10,
   },
   container: {
     flexDirection: "row",
-    alignItems: "center",
     width: SCREEN_WIDTH,
     position: "absolute",
+    alignItems: "center",
     left: 0,
-    width: SCREEN_WIDTH,
-    height: 100,
+    height: 50,
     padding: 10
   },
   actionsContainer: {
     width: ACTIONS_WIDTH,
-    height: "100%",
     left: SCREEN_WIDTH,
     backgroundColor: "#EDF4FF",
-    padding: 20,
     borderLeftColor: "#AFAFAF",
     borderLeftWidth: 1.5,
     alignItems: "center",
     justifyContent: "center",
-    height: 100,
-    position: "absolute"
+    position: "absolute",
+    height: 50
   }
 })
 
