@@ -1,5 +1,5 @@
 import React from "react"
-import { Animated, TouchableOpacity, StyleSheet, Dimensions, Text } from "react-native"
+import { Animated, View, TouchableOpacity, StyleSheet, Dimensions, Text } from "react-native"
 import PropTypes from "prop-types"
 
 const SCREEN_WIDTH = Dimensions.get("window").width
