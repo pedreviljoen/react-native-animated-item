@@ -2,16 +2,16 @@ git:
   depth: 5
 language: node_js
 node_js:
-  - 'stable'
+- stable
 cache:
   directories:
-    - node_modules
+  - node_modules
 deploy:
   provider: npm
   email: pedre87@gmail.com
-  api_key:
-    secure: yn/BFn1D08QR1enSENhmXjIUjMoPzcxvfFl/q36gsx1WjyM/uM/PNPkYT+jW23jbNtOwpBGvjUdgOHCDRnCvbAefJcJUY0d29iePKTHxSgd8xbx1PSHRMY8A5wdmSoSyHg37htA2POfXuqy0/mBIL1HGlex5LRdJAb8UpxHY5cJpYUr/OKDSKtGK78zcgz8pWqD6wiYKfbYC+PQLdnmtNXOmF+QliNa1uPAP3ApCKZmCIdsPChsb06QLpsXqx/6+Ddz1FURd8K3vKnA/7NA2waE92JiPfArDMCy3iNrjAJ+46DrKlFHR8grv+7Kf0fkrjrQmp1VJxY1DGYnl8tGjQEw36NqGRbN7NoMwRw9p5DxRO1JhZSFpcQFK0TgDx9FiC6X7T+rhfgw9pC6Y//ihcBdLjNMEKnwJ31Yx8rJ/XKNjcAcMwXPcbF2OwT5P0+DCDNUDWeo3fI/sbQUBMZ8JQcdcMXx7dsgBfvwDbIl5q1cjU8AYnZUEFTcvnEZMrxibY5jSaGCdV4/aFXipATFbnWlPs+GdJnS6T4kihVIt1QxE/hLGXop9/252LqQolfbyam21FbukzbdA7blsavtYY+7izZrN9lhY+8j4AT886/qfk9u4cwD2pyfWhpZ1jIjfTe7wAQRd6JokWLHFmvyz9C9vBo8dTREGtRaLLI8YW2g=
   on:
     branch: master
+  api_key:
+    secure: NMwNZwsWo5ZmH6Mt3vXinILg/lUd49iJtoaVc9k3O3nKvOiZIfKfDku6e67nEtvB7SrwIliTQDtHqiEQuunxhIGl8zYU+c1onQdhKz2PZ59stl/ya4j+93qw/fxiuFjQv0vG1ETkoFHwoC/bHhEfQF+oHTvjX0fN2TZVyKmN0DVM642TquKZFzX3GRa6KF8NZ99CdkatgLRYbaNIsHMDpuCjnvXX14F1J9wgMjI6lHvH2abLawz/IxBfTQfbK+RZnaugMhuQLeknhAi5B6I6xriel0Ixvs1AATTVUqLvBu/QJflcSYFCIVTrnQP7CWS8lIOW4JyR0T7K9UFjA6rVlTJq5kAWeaiCF0HB7YSXf9Szx4NTsGc6LF5NpJgsGF1fo9RvKvb8IK6SUwaUzjcjCaCVTEVr0wc5D59ikgme0bMI8MR0VW4/NtVSHawi44nyUvTPuanp/iNA+S57+3XYWAhaipskAeg5hNEcdtNs0tKDaIE/0fEbeRGwLvj4SHgVZVGC1wqoQ3Z6sBKyMRN6NmvS0XI6B/pU/n6LWsUz6/BJB4nORfgzosxTUk3l4BloSSoeDZyU1DDTUsPzEZnKGX9NRnHu0aISsrfSJiQVGfyaR0wFMDHgnZJ0HoHmrIuI6+t76Ru1njUmwnC0pqkhF8ccpu4pF1WIhQ0336XzEQo=
 script:
-  - nohup yarn test
+- nohup yarn test
